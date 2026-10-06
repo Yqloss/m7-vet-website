@@ -175,18 +175,7 @@
   {
     "key": "ctrl+v",
     "command": "editor.action.clipboardPasteAction",
-    "when": "editorTextFocus && !editorReadonly && editorHasSelection"
-  },
-  {
-    "key": "ctrl+v",
-    "command": "runCommands",
-    "when": "editorTextFocus && !editorReadonly && !editorHasSelection",
-    "args": {
-      "commands": [
-        "editor.action.selectAll",
-        "editor.action.clipboardPasteAction"
-      ]
-    }
+    "when": "editorTextFocus && !editorReadonly"
   },
   {
     "key": "ctrl+x",
@@ -203,5 +192,15 @@
         "editor.action.clipboardCutAction"
       ]
     }
+  },
+  {
+    "key": "ctrl+a",
+    "command": "editor.action.selectAll",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+z",
+    "command": "undo",
+    "when": "editorTextFocus && !editorReadonly"
   }
 ]
