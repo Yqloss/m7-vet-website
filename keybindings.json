@@ -131,8 +131,7 @@
   },
   {
     "key": "ctrl+s",
-    "command": "workbench.action.files.save",
-    "when": "editorTextFocus"
+    "command": "workbench.action.files.save"
   },
   {
     "key": "tab",
