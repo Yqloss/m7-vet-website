@@ -174,8 +174,18 @@
   },
   {
     "key": "ctrl+v",
+    "command": "vim.remap",
+    "when": "editorTextFocus && vim.active && vim.mode == 'Normal'",
+    "args": {
+      "after": [
+        "<C-v>"
+      ]
+    }
+  },
+  {
+    "key": "ctrl+v",
     "command": "editor.action.clipboardPasteAction",
-    "when": "editorTextFocus && !editorReadonly"
+    "when": "editorTextFocus && !editorReadonly && (!vim.active || vim.mode != 'Normal')"
   },
   {
     "key": "ctrl+x",
