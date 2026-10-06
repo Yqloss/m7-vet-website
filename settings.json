@@ -1,0 +1,284 @@
+{
+  "workbench.colorTheme": "Dark Modern",
+  "window.autoDetectColorScheme": false,
+  "workbench.iconTheme": "vs-seti",
+  "editor.fontFamily": "'CourierPrime Nerd Font', monospace",
+  "editor.fontSize": 16,
+  "editor.fontWeight": "500",
+  "editor.mouseWheelZoom": true,
+  "editor.wordWrap": "on",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.lineNumbers": "relative",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.indentation": true,
+  "editor.guides.bracketPairs": true,
+  "editor.inlayHints.enabled": "off",
+  "editor.inlineSuggest.enabled": true,
+  "editor.acceptSuggestionOnEnter": "off",
+  "files.eol": "\n",
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+  "[zig]": {
+    "editor.tabSize": 4
+  },
+  "[c]": {
+    "editor.formatOnSave": true
+  },
+  "[cpp]": {
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.removeUnusedImports": "explicit",
+      "source.organizeImports": "never",
+      "source.organizeImports.biome": "explicit"
+    }
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.removeUnusedImports": "explicit",
+      "source.organizeImports": "never",
+      "source.organizeImports.biome": "explicit"
+    }
+  },
+  "terminal.integrated.fontFamily": "'CourierPrime Nerd Font', monospace",
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.lineHeight": 1.2,
+  "telemetry.telemetryLevel": "off",
+  "vim.useCtrlKeys": true,
+  "vim.useSystemClipboard": true,
+  "vim.gdefault": true,
+  "vim.smartRelativeLine": false,
+  "vim.easymotion": true,
+  "vim.surround": true,
+  "vim.targets.enable": true,
+  "vim.targets.smartQuotes.enable": true,
+  "vim.leader": "\\",
+  "vim.handleKeys": {
+    "<C-a>": true,
+    "<C-x>": true,
+    "<C-[>": true,
+    "<C-s>": false,
+    "<C-c>": false,
+    "<C-v>": false
+  },
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "Q"
+      ],
+      "after": [
+        "@",
+        "q"
+      ]
+    },
+    {
+      "before": [
+        "M"
+      ],
+      "after": [
+        "`",
+        "m"
+      ]
+    },
+    {
+      "before": [
+        "U"
+      ],
+      "commands": [
+        "redo"
+      ]
+    },
+    {
+      "before": [
+        "K"
+      ],
+      "commands": [
+        "editor.action.showHover"
+      ]
+    },
+    {
+      "before": [
+        "Y"
+      ],
+      "after": [
+        "y",
+        "$"
+      ]
+    },
+    {
+      "before": [
+        "="
+      ],
+      "after": [
+        "\"",
+        "y",
+        "y",
+        "y",
+        "m",
+        "y",
+        "\"",
+        "y",
+        "P",
+        "`",
+        "y"
+      ]
+    },
+    {
+      "before": [
+        "\\"
+      ],
+      "commands": [
+        "workbench.action.quickOpen"
+      ]
+    },
+    {
+      "before": [
+        "<C-a>"
+      ],
+      "after": [
+        "g",
+        "g",
+        "V",
+        "G"
+      ]
+    },
+    {
+      "before": [
+        "<C-x>"
+      ],
+      "after": [
+        "m",
+        "y",
+        "g",
+        "g",
+        "V",
+        "G",
+        "\"",
+        "+",
+        "y",
+        "`",
+        "y",
+        "z",
+        "z"
+      ]
+    },
+    {
+      "before": [
+        "z",
+        "f"
+      ],
+      "commands": [
+        "editor.action.formatDocument"
+      ]
+    },
+    {
+      "before": [
+        "<BS>"
+      ],
+      "after": []
+    },
+    {
+      "before": [
+        "-"
+      ],
+      "after": [
+        "\"",
+        "0"
+      ]
+    },
+    {
+      "before": [
+        "H"
+      ],
+      "after": [
+        "^"
+      ]
+    },
+    {
+      "before": [
+        "L"
+      ],
+      "after": [
+        "$"
+      ]
+    },
+    {
+      "before": [
+        "R"
+      ],
+      "after": [
+        "%"
+      ]
+    },
+    {
+      "before": [
+        "<Space>"
+      ],
+      "after": [
+        "<leader>",
+        "<leader>",
+        "<leader>",
+        "b",
+        "d",
+        "w"
+      ]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<BS>"
+      ],
+      "after": []
+    },
+    {
+      "before": [
+        "-"
+      ],
+      "after": [
+        "\"",
+        "0"
+      ]
+    },
+    {
+      "before": [
+        "H"
+      ],
+      "after": [
+        "^"
+      ]
+    },
+    {
+      "before": [
+        "L"
+      ],
+      "after": [
+        "$"
+      ]
+    },
+    {
+      "before": [
+        "R"
+      ],
+      "after": [
+        "%"
+      ]
+    },
+    {
+      "before": [
+        "<Space>"
+      ],
+      "after": [
+        "<leader>",
+        "<leader>",
+        "<leader>",
+        "b",
+        "d",
+        "w"
+      ]
+    }
+  ]
+}
