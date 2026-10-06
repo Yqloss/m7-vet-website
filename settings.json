@@ -280,5 +280,32 @@
         "w"
       ]
     }
-  ]
+  ],
+  "vim.operatorPendingModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "H"
+      ],
+      "after": [
+        "^"
+      ]
+    },
+    {
+      "before": [
+        "L"
+      ],
+      "after": [
+        "$"
+      ]
+    },
+    {
+      "before": [
+        "R"
+      ],
+      "after": [
+        "%"
+      ]
+    }
+  ],
+  "cppStudio.compilerOptions": "-std=c++17 -O2 -DLOCAL -Wall"
 }
