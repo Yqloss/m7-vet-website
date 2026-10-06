@@ -135,16 +135,6 @@
     "when": "editorTextFocus"
   },
   {
-    "key": "ctrl+c",
-    "command": "editor.action.clipboardCopyAction",
-    "when": "editorTextFocus && editorHasSelection"
-  },
-  {
-    "key": "ctrl+v",
-    "command": "editor.action.clipboardPasteAction",
-    "when": "editorTextFocus && !editorReadonly"
-  },
-  {
     "key": "tab",
     "command": "-editor.action.inlineSuggest.commit"
   },
@@ -164,5 +154,54 @@
     "key": "shift+tab",
     "command": "editor.action.inlineSuggest.commit",
     "when": "editorTextFocus && inlineSuggestionVisible && !suggestWidgetVisible && !editorReadonly"
+  },
+  {
+    "key": "ctrl+c",
+    "command": "editor.action.clipboardCopyAction",
+    "when": "editorTextFocus && editorHasSelection"
+  },
+  {
+    "key": "ctrl+c",
+    "command": "runCommands",
+    "when": "editorTextFocus && !editorHasSelection",
+    "args": {
+      "commands": [
+        "editor.action.selectAll",
+        "editor.action.clipboardCopyAction",
+        "cursorUndo"
+      ]
+    }
+  },
+  {
+    "key": "ctrl+v",
+    "command": "editor.action.clipboardPasteAction",
+    "when": "editorTextFocus && !editorReadonly && editorHasSelection"
+  },
+  {
+    "key": "ctrl+v",
+    "command": "runCommands",
+    "when": "editorTextFocus && !editorReadonly && !editorHasSelection",
+    "args": {
+      "commands": [
+        "editor.action.selectAll",
+        "editor.action.clipboardPasteAction"
+      ]
+    }
+  },
+  {
+    "key": "ctrl+x",
+    "command": "editor.action.clipboardCutAction",
+    "when": "editorTextFocus && !editorReadonly && editorHasSelection"
+  },
+  {
+    "key": "ctrl+x",
+    "command": "runCommands",
+    "when": "editorTextFocus && !editorReadonly && !editorHasSelection",
+    "args": {
+      "commands": [
+        "editor.action.selectAll",
+        "editor.action.clipboardCutAction"
+      ]
+    }
   }
 ]
