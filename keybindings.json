@@ -205,8 +205,22 @@
   },
   {
     "key": "ctrl+a",
+    "command": "vim.remap",
+    "when": "editorTextFocus && vim.active",
+    "args": {
+      "after": [
+        "<Esc>",
+        "g",
+        "g",
+        "V",
+        "G"
+      ]
+    }
+  },
+  {
+    "key": "ctrl+a",
     "command": "editor.action.selectAll",
-    "when": "editorTextFocus"
+    "when": "editorTextFocus && !vim.active"
   },
   {
     "key": "ctrl+z",
