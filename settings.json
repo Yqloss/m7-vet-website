@@ -207,14 +207,6 @@
     },
     {
       "before": [
-        "R"
-      ],
-      "after": [
-        "%"
-      ]
-    },
-    {
-      "before": [
         "<Space>"
       ],
       "after": [
@@ -261,14 +253,6 @@
     },
     {
       "before": [
-        "R"
-      ],
-      "after": [
-        "%"
-      ]
-    },
-    {
-      "before": [
         "<Space>"
       ],
       "after": [
@@ -297,15 +281,7 @@
       "after": [
         "$"
       ]
-    },
-    {
-      "before": [
-        "R"
-      ],
-      "after": [
-        "%"
-      ]
     }
   ],
-  "cppStudio.compilerOptions": "-std=c++17 -O2 -DLOCAL -Wall"
+  "cppStudio.compilerOptions": "-std=c++17 -O0 -DLOCAL -Wall"
 }
