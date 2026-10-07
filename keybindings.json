@@ -225,5 +225,15 @@
     "key": "ctrl+z",
     "command": "undo",
     "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "insert",
+    "command": "vim.remap",
+    "when": "editorTextFocus && vim.active",
+    "args": {
+      "after": [
+        "<Esc>"
+      ]
+    }
   }
 ]
