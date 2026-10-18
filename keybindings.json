@@ -109,11 +109,6 @@
     "when": "editorTextFocus && vim.active && vim.mode == 'Normal' && !suggestWidgetVisible && !codeActionMenuVisible"
   },
   {
-    "key": "tab",
-    "command": "editor.action.quickFix",
-    "when": "editorTextFocus && vim.active && vim.mode == 'Normal' && !suggestWidgetVisible && !codeActionMenuVisible"
-  },
-  {
     "key": "ctrl+1",
     "command": "workbench.action.toggleSidebarVisibility"
   },
@@ -233,6 +228,76 @@
     "args": {
       "after": [
         "<Esc>"
+      ]
+    }
+  },
+  {
+    "key": "tab",
+    "command": "-tab"
+  },
+  {
+    "key": "tab",
+    "command": "-acceptSelectedSuggestion"
+  },
+  {
+    "key": "tab",
+    "command": "-insertBestCompletion"
+  },
+  {
+    "key": "tab",
+    "command": "-insertNextSuggestion"
+  },
+  {
+    "key": "tab",
+    "command": "-jumpToNextSnippetPlaceholder"
+  },
+  {
+    "key": "tab",
+    "command": "-editor.action.indentLines"
+  },
+  {
+    "key": "tab",
+    "command": "-editor.emmet.action.expandAbbreviation"
+  },
+  {
+    "key": "tab",
+    "command": "-extension.vim_tab"
+  },
+  {
+    "key": "enter",
+    "command": "editor.action.inlineSuggest.commit",
+    "when": "editorTextFocus && !editorReadonly && inlineSuggestionVisible && !suggestWidgetVisible && (!vim.active || vim.mode == 'Insert')"
+  },
+  {
+    "key": "enter",
+    "command": "acceptSelectedSuggestion",
+    "when": "editorTextFocus && !editorReadonly && suggestWidgetVisible && suggestWidgetHasFocusedSuggestion"
+  },
+  {
+    "key": "space",
+    "command": "m7vet.smartSpace",
+    "when": "editorTextFocus && !editorReadonly && !isComposing && (!vim.active || vim.mode == 'Insert')"
+  },
+  {
+    "key": "tab",
+    "command": "vim.remap",
+    "when": "editorTextFocus && vim.active",
+    "args": {
+      "after": [
+        "<Esc>"
+      ]
+    }
+  },
+  {
+    "key": "tab",
+    "command": "runCommands",
+    "when": "editorTextFocus && !vim.active",
+    "args": {
+      "commands": [
+        "hideSuggestWidget",
+        "editor.action.inlineSuggest.hide",
+        "cancelSelection",
+        "leaveSnippet"
       ]
     }
   }
