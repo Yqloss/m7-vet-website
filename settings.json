@@ -15,7 +15,7 @@
   "editor.guides.bracketPairs": true,
   "editor.inlayHints.enabled": "off",
   "editor.inlineSuggest.enabled": true,
-  "editor.acceptSuggestionOnEnter": "off",
+  "editor.acceptSuggestionOnEnter": "on",
   "files.eol": "\n",
   "[c]": {
     "editor.formatOnSave": true
@@ -201,78 +201,6 @@
     },
     {
       "before": [
-        "j",
-        "k"
-      ],
-      "after": [
-        "<Esc>"
-      ]
-    },
-    {
-      "before": [
-        "j",
-        "K"
-      ],
-      "after": [
-        "<Esc>"
-      ]
-    },
-    {
-      "before": [
-        "J",
-        "k"
-      ],
-      "after": [
-        "<Esc>"
-      ]
-    },
-    {
-      "before": [
-        "J",
-        "K"
-      ],
-      "after": [
-        "<Esc>"
-      ]
-    },
-    {
-      "before": [
-        "k",
-        "j"
-      ],
-      "after": [
-        "<Esc>"
-      ]
-    },
-    {
-      "before": [
-        "k",
-        "J"
-      ],
-      "after": [
-        "<Esc>"
-      ]
-    },
-    {
-      "before": [
-        "K",
-        "j"
-      ],
-      "after": [
-        "<Esc>"
-      ]
-    },
-    {
-      "before": [
-        "K",
-        "J"
-      ],
-      "after": [
-        "<Esc>"
-      ]
-    },
-    {
-      "before": [
         "+"
       ],
       "commands": [
@@ -287,75 +215,19 @@
         "editor.action.commentLine"
       ]
     },
+    {
+      "before": [
+        "<Tab>"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
   ],
   "vim.insertModeKeyBindingsNonRecursive": [
     {
       "before": [
-        "j",
-        "k"
-      ],
-      "after": [
-        "<Esc>"
-      ]
-    },
-    {
-      "before": [
-        "j",
-        "K"
-      ],
-      "after": [
-        "<Esc>"
-      ]
-    },
-    {
-      "before": [
-        "J",
-        "k"
-      ],
-      "after": [
-        "<Esc>"
-      ]
-    },
-    {
-      "before": [
-        "J",
-        "K"
-      ],
-      "after": [
-        "<Esc>"
-      ]
-    },
-    {
-      "before": [
-        "k",
-        "j"
-      ],
-      "after": [
-        "<Esc>"
-      ]
-    },
-    {
-      "before": [
-        "k",
-        "J"
-      ],
-      "after": [
-        "<Esc>"
-      ]
-    },
-    {
-      "before": [
-        "K",
-        "j"
-      ],
-      "after": [
-        "<Esc>"
-      ]
-    },
-    {
-      "before": [
-        "K",
-        "J"
+        "<Tab>"
       ],
       "after": [
         "<Esc>"
@@ -409,78 +281,6 @@
     },
     {
       "before": [
-        "j",
-        "k"
-      ],
-      "after": [
-        "<Esc>"
-      ]
-    },
-    {
-      "before": [
-        "j",
-        "K"
-      ],
-      "after": [
-        "<Esc>"
-      ]
-    },
-    {
-      "before": [
-        "J",
-        "k"
-      ],
-      "after": [
-        "<Esc>"
-      ]
-    },
-    {
-      "before": [
-        "J",
-        "K"
-      ],
-      "after": [
-        "<Esc>"
-      ]
-    },
-    {
-      "before": [
-        "k",
-        "j"
-      ],
-      "after": [
-        "<Esc>"
-      ]
-    },
-    {
-      "before": [
-        "k",
-        "J"
-      ],
-      "after": [
-        "<Esc>"
-      ]
-    },
-    {
-      "before": [
-        "K",
-        "j"
-      ],
-      "after": [
-        "<Esc>"
-      ]
-    },
-    {
-      "before": [
-        "K",
-        "J"
-      ],
-      "after": [
-        "<Esc>"
-      ]
-    },
-    {
-      "before": [
         "+"
       ],
       "commands": [
@@ -495,6 +295,14 @@
         "editor.action.commentLine"
       ]
     },
+    {
+      "before": [
+        "<Tab>"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
   ],
   "vim.operatorPendingModeKeyBindingsNonRecursive": [
     {
@@ -515,71 +323,7 @@
     },
     {
       "before": [
-        "j",
-        "k"
-      ],
-      "after": [
-        "<Esc>"
-      ]
-    },
-    {
-      "before": [
-        "j",
-        "K"
-      ],
-      "after": [
-        "<Esc>"
-      ]
-    },
-    {
-      "before": [
-        "J",
-        "k"
-      ],
-      "after": [
-        "<Esc>"
-      ]
-    },
-    {
-      "before": [
-        "J",
-        "K"
-      ],
-      "after": [
-        "<Esc>"
-      ]
-    },
-    {
-      "before": [
-        "k",
-        "j"
-      ],
-      "after": [
-        "<Esc>"
-      ]
-    },
-    {
-      "before": [
-        "k",
-        "J"
-      ],
-      "after": [
-        "<Esc>"
-      ]
-    },
-    {
-      "before": [
-        "K",
-        "j"
-      ],
-      "after": [
-        "<Esc>"
-      ]
-    },
-    {
-      "before": [
-        "K",
-        "J"
+        "<Tab>"
       ],
       "after": [
         "<Esc>"
@@ -589,71 +333,7 @@
   "vim.commandLineModeKeyBindingsNonRecursive": [
     {
       "before": [
-        "j",
-        "k"
-      ],
-      "after": [
-        "<Esc>"
-      ]
-    },
-    {
-      "before": [
-        "j",
-        "K"
-      ],
-      "after": [
-        "<Esc>"
-      ]
-    },
-    {
-      "before": [
-        "J",
-        "k"
-      ],
-      "after": [
-        "<Esc>"
-      ]
-    },
-    {
-      "before": [
-        "J",
-        "K"
-      ],
-      "after": [
-        "<Esc>"
-      ]
-    },
-    {
-      "before": [
-        "k",
-        "j"
-      ],
-      "after": [
-        "<Esc>"
-      ]
-    },
-    {
-      "before": [
-        "k",
-        "J"
-      ],
-      "after": [
-        "<Esc>"
-      ]
-    },
-    {
-      "before": [
-        "K",
-        "j"
-      ],
-      "after": [
-        "<Esc>"
-      ]
-    },
-    {
-      "before": [
-        "K",
-        "J"
+        "<Tab>"
       ],
       "after": [
         "<Esc>"
@@ -663,5 +343,7 @@
   "cppStudio.compilerOptions": "-std=c++17 -O0 -DLOCAL -Wall",
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
-  }
+  },
+  "editor.tabCompletion": "off",
+  "emmet.triggerExpansionOnTab": false
 }
