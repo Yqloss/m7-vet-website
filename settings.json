@@ -15,7 +15,7 @@
   "editor.guides.bracketPairs": true,
   "editor.inlayHints.enabled": "off",
   "editor.inlineSuggest.enabled": true,
-  "editor.acceptSuggestionOnEnter": "on",
+  "editor.acceptSuggestionOnEnter": "off",
   "files.eol": "\n",
   "[c]": {
     "editor.formatOnSave": true
