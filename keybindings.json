@@ -264,7 +264,7 @@
     "command": "-extension.vim_tab"
   },
   {
-    "key": "enter",
+    "key": "shift+tab",
     "command": "editor.action.inlineSuggest.commit",
     "when": "editorTextFocus && !editorReadonly && inlineSuggestionVisible && !suggestWidgetVisible && (!vim.active || vim.mode == 'Insert')"
   },
