@@ -345,5 +345,11 @@
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "editor.tabCompletion": "off",
-  "emmet.triggerExpansionOnTab": false
+  "emmet.triggerExpansionOnTab": false,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.quickSuggestions": {
+    "other": "off",
+    "comments": "off",
+    "strings": "off"
+  }
 }
