@@ -269,14 +269,9 @@
     "when": "editorTextFocus && !editorReadonly && inlineSuggestionVisible && !suggestWidgetVisible && (!vim.active || vim.mode == 'Insert')"
   },
   {
-    "key": "enter",
+    "key": "shift+tab",
     "command": "acceptSelectedSuggestion",
     "when": "editorTextFocus && !editorReadonly && suggestWidgetVisible && suggestWidgetHasFocusedSuggestion"
-  },
-  {
-    "key": "space",
-    "command": "m7vet.smartSpace",
-    "when": "editorTextFocus && !editorReadonly && !isComposing && (!vim.active || vim.mode == 'Insert')"
   },
   {
     "key": "tab",
